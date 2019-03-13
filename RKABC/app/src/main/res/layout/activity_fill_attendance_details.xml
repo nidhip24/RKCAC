@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".FillAttendanceDetails">
+
+    <TextView
+        android:id="@+id/mname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="Title"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mname"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="28dp"
+        android:text="Your GR No" />
+
+    <TextView
+        android:id="@+id/mgrno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mname"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="28dp"
+        android:layout_toEndOf="@+id/mtxt"
+        android:text="1234" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mtxt"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="30dp"
+        android:text="Enter password" />
+
+    <EditText
+        android:id="@+id/mpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mgrno"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="21dp"
+        android:layout_toEndOf="@+id/textView25"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/mpro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mpass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:text="Proceed" />
+</RelativeLayout>

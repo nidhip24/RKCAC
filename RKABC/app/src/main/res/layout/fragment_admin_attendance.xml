@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.AdminAttendance">
+
+    <Button
+        android:id="@+id/madd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Add attendance" />
+
+    <Button
+        android:id="@+id/mdel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/madd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Delete attendance" />
+
+    <Button
+        android:id="@+id/mdownload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mdel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="download attendance" />
+
+</RelativeLayout>
